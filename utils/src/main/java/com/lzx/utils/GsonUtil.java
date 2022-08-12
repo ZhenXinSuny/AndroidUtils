@@ -1,4 +1,4 @@
-package com.lzx.androidutils.utils;
+package com.lzx.utils;
 
 
 
