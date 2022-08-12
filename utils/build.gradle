@@ -2,8 +2,7 @@ plugins {
     id 'com.android.library'
     id 'maven-publish'
 }
-group = 'com.github.liuzhenxin2156'
-version = '1.0'
+
 
 android {
     compileSdk 31
@@ -45,7 +44,7 @@ afterEvaluate {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.liuzhenxin2156'
+                groupId = 'com.github.android-utils'
                 artifactId = 'android-utils'
                 version = '1.0'
             }
